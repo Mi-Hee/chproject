@@ -31,6 +31,21 @@ public class BoardData extends Base {
 
     private String subject;
     private String content;
+    
+    private int viewCount; // 조회수
+    
+    private int num1; // 추가 필드 : 정수
+    private int num2; // 추가 필드 : 정수
+    private int num3; // 추가 필드 : 정수
+
+    private String test1; // 추가 필드 : 한줄 텍스트
+    private String test2; // 추가 필드 : 한줄 텍스트
+    private String test3; // 추가 필드 : 한줄 텍스트
+    
+    private String longText1; // 추가 필드 : 여러줄 텍스트
+    private String longText2; // 추가 필드 : 여러줄 텍스트
+    private String longText3; // 추가 필드 : 여러줄 텍스트
+    
 }
 
 
